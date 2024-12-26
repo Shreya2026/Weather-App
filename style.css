@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    img{
+        border-radius: 20px;
+    }
+}
+body{
+    background-color: rgb(56, 54, 54);
+}
+.card{
+    height: 500px;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 66px;
+    border-radius: 5%;
+    background:linear-gradient(145deg, #43c1d7, #ea3aff);
+}
+.search{
+    padding-top: 20px;
+    margin: 20%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    button{
+        padding: 3px;
+        border-radius: 100%;
+        border: 0;
+        outline: 0;
+        background: none;
+        cursor: pointer;
+    }
+}
+.search-bar{
+    border-radius: 7px;
+    padding: 7px;
+    outline: 0;
+    border: 0;
+}
+
+.weather{
+    color: #ffffff;
+    margin-top: -50px;
+    padding-left: 90px;
+    img{
+        height: 137px;
+        width: 146px;
+        margin-left: 41px;
+    }
+    h1{
+        padding-left: 75px;
+    }
+    h2{
+        padding-left: 58px;
+    }
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -90px;
+    padding-top: 50px;
+    img{
+        height: 92px;
+        width: 120px;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -79px;
+    margin-left: -112px;
+    display: none;
+}
